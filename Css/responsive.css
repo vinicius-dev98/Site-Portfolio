@@ -1,0 +1,72 @@
+@media (max-width: 551px) {
+
+
+    /*----TELA INICIAL----*/
+   header{
+    padding: 13px;
+    font-size: 0.8em;
+    }
+
+    header h1{
+        padding-left: 2%;
+        font-weight: 200;
+        cursor: pointer;
+    }
+
+    .telaInicial{
+    padding-top: 30%;
+    font-size: 0.7em;
+    }
+    .texto-introducao {
+        padding-left: 3%;    
+    }
+    
+
+    .linkedin-button{
+        width: 200px;
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 0.3rem;
+        border-radius: 20px;
+        background-color: #222;
+        margin-top: 20px;
+        box-shadow: 15px 15px 0px #44f814;
+        transition:  all 0.5s;
+        cursor: pointer;
+    }
+
+    .img-introducao img{
+        align-items: center;
+        padding-left: 5%;
+        padding-top: 22%;
+        width: 200px;
+        height: 200px;
+    }
+
+
+    /*----SOBRE MIM----*/
+
+    .sobreMim h2{
+        font-size: 2.5em;
+    }
+
+    .sobreMim p{
+        text-align: justify;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+        font-size: 1.4em;
+    }
+
+    /*----HABILIDADES----*/
+
+    .habilidades img{
+        width: 50px;
+        height: 50px;       
+    }
+
+    .habilidadesContainer1, .habilidadesContainer2{
+        padding-top: 30%;
+    }
+    
+}

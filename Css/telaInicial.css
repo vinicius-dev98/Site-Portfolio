@@ -1,0 +1,55 @@
+/*-----TELA INICIAL-----*/
+
+.telaInicial{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-introducao {
+    width: 45vw;
+    height: 100vh;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7%;
+    padding-top: 15%;
+
+}
+
+.texto-introducao span, p {
+    font-size: 1.4em;
+}
+
+.img-introducao{
+    width: 45vw;
+    height: 100vh;
+}
+
+.img-introducao img{
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 22%;
+    width: 500px;
+    height: 500px;
+}
+
+.linkedin-button{
+    width: 340px;
+    height: 70px;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    border-radius: 20px;
+    background-color: #222;
+    margin-top: 20px;
+    box-shadow: 15px 15px 0px #44f814;
+    transition:  all 0.5s;
+    cursor: pointer;
+}
+
+.linkedin-button:hover{
+    background: #44f814;
+    box-shadow: -15px -15px 0px #222;
+    transform: translate(10px, 10px);
+}
