@@ -1,3 +1,7 @@
+main{
+    width: 100%;
+}
+
 body{
     width: 100%;
     height: 100vh;
@@ -81,6 +85,7 @@ a{
 
 
 .projetos {
+    width: 100%;
     background-color: #222;
 }
 
@@ -176,33 +181,3 @@ button:hover {
     justify-content: center;
 }
 
-
-/*
-@media (max-width:1200px) {
-  .projetos{
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  }
-
-  #projetos {
-      display: flex;
-      justify-content: center;
-  }
-
-  .projetos-itens {
-      flex-direction: column;
-  }
-
-}
-@media (max-width:950px) {
-    .pro {
-        max-width: 300px;
-    }
-
-}
-*/
-
-
-
-/* MAIN */

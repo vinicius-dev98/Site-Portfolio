@@ -1,3 +1,89 @@
+@media (max-width:1255px) {
+    .img-introducao img{
+        align-items: center;
+        padding-left: 20%;
+        padding-top: 30%;
+        width: 550px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 1029px) {
+    .img-introducao img{
+        align-items: center;
+        padding-left: 15%;
+        padding-top: 35%;
+        width: 450px;
+        height: 450px;
+    }
+   
+}
+
+@media (max-width: 942px) {
+    /*----TELA INICIAL----*/
+    .linkedin-button{
+        width: 180px;
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 0.3rem;
+        border-radius: 20px;
+        background-color: #222;
+        margin-top: 20px;
+        box-shadow: 15px 15px 0px #44f814;
+        transition:  all 0.5s;
+        cursor: pointer;
+    }
+    
+    
+    .img-introducao img{
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-top: 35%;
+        width: 340px;
+        height: 340px;
+    }
+   
+}
+
+@media (max-width: 652px) {
+    
+    /*----TELA INICIAL----*/
+    .linkedin-button{
+        width: 180px;
+        height: 50px;
+        font-weight: bold;
+        letter-spacing: 0.3rem;
+        border-radius: 20px;
+        background-color: #222;
+        margin-top: 20px;
+        box-shadow: 15px 15px 0px #44f814;
+        transition:  all 0.5s;
+        cursor: pointer;
+    }
+    
+    
+    .img-introducao img{
+        align-items: center;
+        padding-left: 5%;
+        padding-top: 50%;
+        width: 250px;
+        height: 250px;
+    }
+   
+    
+    /*----SOBRE MIM----*/
+
+    .sobreMim p{
+        text-align: justify;
+        padding-right: 15%;
+        padding-left: 15%;
+        padding-top: 5%;
+        font-size: 1.2em;
+    }
+}
+
+
 @media (max-width: 551px) {
 
 
@@ -68,5 +154,10 @@
     .habilidadesContainer1, .habilidadesContainer2{
         padding-top: 30%;
     }
-    
+
+    .pro {
+        max-width: 250px;
+        width: 1000px;
+    }
 }
+

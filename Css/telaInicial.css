@@ -13,7 +13,7 @@
     display: inline;
     justify-content: space-between;
     align-items: center;
-    padding-left: 7%;
+    padding-left: 5%;
     padding-top: 15%;
 
 }
@@ -29,27 +29,30 @@
 
 .img-introducao img{
     align-items: center;
-    padding-left: 5%;
+    padding-left: 25%;
     padding-top: 22%;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
 }
 
 .linkedin-button{
     width: 340px;
     height: 70px;
     font-weight: bold;
+    font-size: 1.2em;
     letter-spacing: 0.6rem;
     border-radius: 20px;
     background-color: #222;
     margin-top: 20px;
     box-shadow: 15px 15px 0px #44f814;
+    color: #44f814;
     transition:  all 0.5s;
     cursor: pointer;
 }
 
 .linkedin-button:hover{
     background: #44f814;
+    color: #222;
     box-shadow: -15px -15px 0px #222;
     transform: translate(10px, 10px);
 }
